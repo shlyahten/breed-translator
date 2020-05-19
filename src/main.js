@@ -1,4 +1,14 @@
 var dictionary = {
+	"超频Apply已Save。Restart后生效": "Overclocking settings has been saved. Apply after reboot",
+	"请耐心等待。": "please wait patiently.",
+	"routing正在Restart": "Router restarting",
+	"routing正在Restart，请耐心等待。": "Router is Restarting, please be patient.",
+	"本页面不会自动刷新，请自行检查是否Restart成功。":"This page will not refresh automatically, please check whether Restart is successful.",
+	"以Reset": "以Reset",
+	"最终频率": "Final frequency",
+	"警告：请慎重考虑对RAM进行超频，如果在RAM超频后需要降频，请先以默认频率启动，再Modify": "Warning: Please carefully consider overclocking RAM. If you need to reduce the frequency after RAM overclocking, please start at the default frequency and then Modify",
+	"Click按钮Backup相应的数据": "Click the button to backup the corresponding data",
+	"自动识别": "auto recognition",
 	"本产品仅供个人免费使用，禁止用于商业目的": "Free for personal use. Commercial use prohibited.",
 	"启用环境变量可以使 Breed 的一些设置能够被修改并保存": "Enable environment varilables can allow Breed to edit/save some specific settings",
 	"请根据当前使用的固件类型，选择合适的位置": "Please pick the correct location based on the firmware type",
@@ -91,6 +101,6 @@ if(div_about)
 {
 var my_about		= document.createElement("div");
 my_about.innerHTML	= "<p>Breed Translator Extension for Chrome by szsoftware:</br><a href='https://github.com/szsoftware/breed-translator'>https://github.com/szsoftware/breed-translator</a></p>";
-my_about.innerHTML	+= "<p>Part of the Breed (e.g. WebGUI) is based on old version of <a href='https://github.com/pepe2k/u-boot_mod'>https://github.com/pepe2k/u-boot_mod</a> but sadly the auther does not follow GPL-v2 Licence and release the source code.</p>";
+my_about.innerHTML	+= "<p>Part of the Breed (e.g. WebGUI) is based on old version of <a href='https://github.com/pepe2k/u-boot_mod'>https://github.com/pepe2k/u-boot_mod</a> but sadly the author does not follow GPL-v2 Licence and release the source code.</p>";
 div_about.appendChild(my_about);
 }

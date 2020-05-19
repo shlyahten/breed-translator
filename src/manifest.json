@@ -1,8 +1,8 @@
 {
-  "version": "0.1.1",
+  "version": "0.2.0",
   "name": "Translator for the Breed Bootloader",
-  "short_name": "Breed Translator",
-  "description": "More informations at https://github.com/szsoftware/breed-translator.",
+  "short_name": "Breed Translator version 2",
+  "description": "Переводчик BREED bootloader",
   "permissions": [
     "http://192.168.1.1/*"
   ],
